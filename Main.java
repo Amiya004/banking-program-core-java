@@ -24,7 +24,7 @@ public class Main {
             System.out.println("**********************");
 
             // Get and Process Users chooice
-            System.out.println("Enter your choice (1-4) : ");
+            System.out.print("Enter your choice (1-4) : ");
             choice = scanner.nextInt();
 
             switch(choice){
@@ -44,9 +44,9 @@ public class Main {
             }
         }
         
-        System.out.println("**************************************");
+        System.out.println("---------------------------------------");
         System.out.println("THANKYOU ! HAVE A NICE DAY...");
-        System.out.println("**************************************");
+        System.out.println("---------------------------------------");
         scanner.close();
     }
 
@@ -58,7 +58,7 @@ public class Main {
     static double deposit() {
         double amount ;
 
-        System.out.println("Enter an amount to be deposited : ");
+        System.out.print("Enter an amount to be deposited : ");
         amount= scanner.nextDouble();
 
         if(amount < 0){
